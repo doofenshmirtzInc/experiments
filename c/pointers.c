@@ -1,5 +1,5 @@
-
 #include <iostream>
+#include <string.h>
 
 
 void
@@ -31,7 +31,7 @@ pointer_array(){
 
 
 	for (int j = 0; j < num_elems; j++){
-		printf("the value of pointer i is : %d\n", *ap[j]);
+		printf("the value of pointer %d is : %d\n", j, *ap[j]);
 	}
 
 }
