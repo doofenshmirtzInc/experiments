@@ -11,6 +11,7 @@ pointer(){
 	printf("input an integer : ");
 
 	scanf("%d", &var);
+	printf("the address of the pointer is: %x\n", ip);
 	printf("the value of the pointer is: %d\n", *ip);
 
 }
